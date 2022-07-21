@@ -1,10 +1,10 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 import rospy
 from std_msgs.msg import Int32
 
 def callback(msg):
-	print msg.data
+	print(msg.data)
 
 rospy.init_node('topic_subscriber')
 

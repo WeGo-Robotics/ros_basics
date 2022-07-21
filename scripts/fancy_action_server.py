@@ -1,8 +1,8 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 import rospy
 import time
 import actionlib
-from action_study.msg import TimerAction, TimerGoal, TimerResult, TimerFeedback
+from basics.msg import TimerAction, TimerGoal, TimerResult, TimerFeedback
 
 def do_timer(goal):
 	start_time = time.time()
